@@ -1,6 +1,7 @@
 <style>
     section {
-        background-color: #E5E5E5;
+        background-color: #D3B68D;
+
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -9,13 +10,19 @@
     }
 
     p {
-        font-style: italic;
+        font-size: 1.5rem;
+        font-weight: thin;
+        letter-spacing: 4px;
+        color: #F5F2EA;
+
     }
 
     h1 {
         font-size: 4.5rem;
         font-weight: bold;
         letter-spacing: 8px;
+        color: #F5F2EA;
+
     }
 </style>
 
@@ -45,7 +52,7 @@
             SHERDANA
         </h1>
         <p>
-            Family office
+            CAPITAL
         </p>
         {/if}
     </section>

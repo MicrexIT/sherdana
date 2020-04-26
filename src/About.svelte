@@ -3,7 +3,7 @@
     let aboutUsContent = [
         "Sherdana is a family office with exclusive focus on emerging markets",
 
-        "Our consolidates existing assets that have been developed on the continent since 2009 together with know-how and network to unlock new opportunities",
+        "Our approach consolidates existing assets that have been developed on the continent since 2009 together with know-how and network to unlock new opportunities",
 
         "Sherdana’s operational headquarters are in Lusaka, Zambia"
     ]
@@ -12,10 +12,15 @@
 
 <style>
     p {
-        font-size: 1.2rem;
+        font-size: 2rem;
+        color: #1A2F21;
+
     }
     .lower {
-        font-style: italic;
+        font-size: 1rem;
+        margin: 5px 0;
+        color: #1A2F21;
+
     }
 
     .upper {
@@ -26,6 +31,7 @@
 </style>
 
 <p class="upper">about us</p>
+<br />
 {#each aboutUsContent as value}
     <p class="lower"> {value} </p>
 {/each}
