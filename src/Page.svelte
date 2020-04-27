@@ -42,7 +42,7 @@
 
 </script>
 
-<section in:fade out:fade transition:fade class="page cols">
+<section transition:fade class="page cols">
     {#if currentPage == 1}
         <About/>
 
