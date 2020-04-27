@@ -52,7 +52,7 @@
             SHERDANA
         </h1>
         <p>
-            CAPITAL
+           LIMITED
         </p>
         {/if}
     </section>

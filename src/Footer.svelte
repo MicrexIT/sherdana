@@ -23,6 +23,6 @@
 <footer>
     <p>71-75 Shelton Street, WC2H 9JQ </p>
     <p>London, United Kingdom</p>
-    <div>Copyright ⓒ {new Date().getFullYear()} Sherdana limited</div>
+    <div>Copyright ⓒ {new Date().getFullYear()} Sherdana Limited</div>
 
 </footer>
