@@ -6,7 +6,7 @@
 
     @media (min-width: 768px) {
         section {
-            padding: 20px;
+            padding-top: 20px;
             padding-left: 100px;
             padding-right: 100px;
         }
@@ -19,6 +19,7 @@
     }
 
     .line {
+        margin-top: 10px;
         background-color: #D3B68D;
         height: 2px;
         width: 100%;
@@ -38,6 +39,7 @@
         text-weight: light;
         cursor: pointer;
         color: #D3B68D;
+        text-transform: capitalize;
 
     }
 
@@ -67,7 +69,7 @@
 </script>
 
 <section>
-    <img src="logo-musk.png" alt="Sherdana"/>
+    <img src="logo.png" alt="Sherdana"/>
     <div class="line"/>
     <ul>
         {#each navItems as item, index}

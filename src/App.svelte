@@ -41,7 +41,7 @@
     main {
         min-height: 100%;
         display: grid;
-        grid-template-rows: 30rem minmax(7.5rem,1fr) 6.8rem;
+        grid-template-rows: 26rem minmax(7.5rem,1fr) 6.8rem;
         grid-template-columns: 1fr;
     }
 
