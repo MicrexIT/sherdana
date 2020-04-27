@@ -19,7 +19,7 @@
     }
 
     .line {
-        background-color: #1D1D1B;
+        background-color: #D3B68D;
         height: 2px;
         width: 100%;
         border-radius: 4px;
@@ -34,16 +34,16 @@
         /*font-family: "Comic Sans MS";*/
         padding-left: 10px;
         padding-right: 10px;
-        font-weight: lighter !important;
         font-size: 1.2rem;
+        text-weight: light;
         cursor: pointer;
+        color: #D3B68D;
 
     }
-    li :hover {
-        opacity: 0.7;
-    }
+
     .selected {
-        /*opacity: 0.7;*/
+        font-weight: bolder !important;
+        color: #D3B68D;
     }
 
 
@@ -51,9 +51,9 @@
 <script>
     import {pageNumber} from './store'
     let navItems = [
-        {label: "home"},
-        {label: "contacts"},
-        {label: "about us"},
+        {label: "HOME"},
+        {label: "ABOUT"},
+        {label: "CONTACT"},
     ]
     let currentPage;
 
@@ -67,7 +67,7 @@
 </script>
 
 <section>
-    <img src="logo-black.png" alt="Sherdana"/>
+    <img src="logo-musk.png" alt="Sherdana"/>
     <div class="line"/>
     <ul>
         {#each navItems as item, index}

@@ -4,14 +4,20 @@
 
 <style>
     p {
-        font-style: italic;
-        font-size: 1.2rem;
+        font-size: 2rem;
         margin-bottom: 10px;
+        color: #1A2F21;
+    }
+    a {
+        font-size: 1rem;
+        margin: 10px 0;
+        color: #1A2F21;
+
     }
 
 </style>
 <p>
-    Contacts
+    CONTACTS
 </p>
 <a href={`mailto:${mail}`}>
     {mail}

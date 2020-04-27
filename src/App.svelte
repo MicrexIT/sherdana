@@ -29,7 +29,6 @@
     :global(a, a :visited, a :hover, a :active) {
     font-style: inherit;
     color: inherit;
-    background-color: transparent;
     font-size: inherit;
     text-decoration: none;
     font-variant: inherit;
