@@ -27,6 +27,8 @@
 </style>
 
 <script>
+
+    import {fade} from "svelte/transition"
     import {pageNumber} from "./store"
     import About from "./About.svelte"
     import Contact from "./Contact.svelte"
@@ -40,20 +42,18 @@
 
 </script>
 
-<section>
-    <section class="page cols">
-        {#if currentPage == 1}
-          <About/>
+<section in:fade out:fade transition:fade class="page cols">
+    {#if currentPage == 1}
+        <About/>
 
-        {:else if currentPage === 2}
-          <Contact/>
-        {:else}
+    {:else if currentPage === 2}
+        <Contact/>
+    {:else}
         <h1>
             SHERDANA
         </h1>
         <p>
-           LIMITED
+            LIMITED
         </p>
-        {/if}
-    </section>
+    {/if}
 </section>
