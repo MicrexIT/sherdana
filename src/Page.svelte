@@ -1,7 +1,8 @@
 <style>
+
+
     section {
         background-color: #D3B68D;
-
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -10,19 +11,30 @@
     }
 
     p {
-        font-size: 1.5rem;
-        font-weight: thin;
-        letter-spacing: 4px;
+        font-size: 1rem;
+        letter-spacing: 3px;
+        font-weight: lighter;
         color: #F5F2EA;
 
     }
 
     h1 {
-        font-size: 4.5rem;
         font-weight: bold;
-        letter-spacing: 8px;
         color: #F5F2EA;
+        font-size: 3rem;
+        letter-spacing: 6px;
 
+    }
+
+    @media only screen and (min-width: 768px) {
+       p {
+           font-size: 1.5rem;
+           letter-spacing: 4px;
+       }
+       h1 {
+           font-size: 4.5rem;
+           letter-spacing: 8px;
+        }
     }
 </style>
 

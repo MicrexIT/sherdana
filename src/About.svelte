@@ -11,22 +11,36 @@
 </script>
 
 <style>
+
     p {
-        font-size: 2rem;
+        font-size: 1.2rem;
         color: #1A2F21;
 
     }
     .lower {
         font-size: 1rem;
-        margin: 5px 0;
+        margin: 5px 5px;
         color: #1A2F21;
-
+        font-style: italic;
     }
 
     .upper {
         text-transform: uppercase;
-        margin-bottom: 10px;
+        margin-bottom: 8px;
     }
+
+    @media only screen and (min-width: 768px) {
+        p {
+            font-size: 2rem;
+        }
+        .lower {
+            /*font-weight: lighter;*/
+            font-size: 1.2rem;
+            margin: 0px 0px 8px;
+            width: 750px;
+        }
+    }
+
 
 </style>
 

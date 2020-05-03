@@ -1,25 +1,14 @@
 <style>
     section {
-        padding: 10px;
+        padding: 8px;
 
     }
-
-    @media (min-width: 768px) {
-        section {
-            padding-top: 20px;
-            padding-left: 100px;
-            padding-right: 100px;
-        }
-    }
-
-
     img {
-        width: 20%;
-        min-width: 400px;
+        width: 232px;
     }
 
     .line {
-        margin-top: 10px;
+        margin-top: 8px;
         background-color: #D3B68D;
         height: 2px;
         width: 100%;
@@ -28,15 +17,14 @@
     ul {
         display: flex;
         justify-content: center;
-        margin-top:10px;
+        margin-top:8px;
     }
 
     li {
-        /*font-family: "Comic Sans MS";*/
-        padding-left: 10px;
-        padding-right: 10px;
-        font-size: 1.2rem;
-        text-weight: light;
+        padding-left: 8px;
+        padding-right: 8px;
+        font-size: 1rem;
+        font-weight: lighter;
         cursor: pointer;
         color: #D3B68D;
         text-transform: capitalize;
@@ -46,6 +34,30 @@
     .selected {
         font-weight: bolder !important;
         color: #D3B68D;
+    }
+
+    @media only screen and (min-width: 768px) {
+        section {
+            padding: 20px 100px 10px;
+        }
+        img {
+            width: 20%;
+            min-width: 400px;
+        }
+
+        .line {
+            margin-top: 10px;
+        }
+        ul {
+            margin-top:10px;
+        }
+
+        li {
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 1.2rem;
+        }
+
     }
 
 

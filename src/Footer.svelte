@@ -1,4 +1,5 @@
 <style>
+
     footer {
         background-color: #1A2F21;
         display: flex;
@@ -9,13 +10,23 @@
     p {
         color: #D3B68D;
         font-size: 1rem;
-        font-size: 0.8rem;
 
     }
     div {
-        font-size: 0.8rem;
+        font-size: 1rem;
         color: #D3B68D;
-        padding: 5px 0;
+        padding: 8px 8px;
+    }
+    @media only screen and (min-width: 768px) {
+        p {
+            color: #D3B68D;
+            font-size: 1rem;
+
+        }
+        div {
+            font-size: 1rem;
+            padding: 10px 10px;
+        }
     }
 </style>
 
