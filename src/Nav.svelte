@@ -42,7 +42,7 @@
         }
         img {
             width: 20%;
-            min-width: 400px;
+            min-width: 300px;
         }
 
         .line {

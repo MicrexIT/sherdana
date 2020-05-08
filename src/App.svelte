@@ -1,14 +1,14 @@
 <style>
     main {
-        height: 100%;
+        min-height: 100%;
         display: grid;
-        grid-template-rows: 4fr 4fr 3fr;
+        grid-template-rows: 16rem minmax(14rem, auto) 14rem;
         grid-template-columns: 1fr;
     }
    @media only screen and (min-width: 768px) {
        main {
            min-height: 100%;
-           grid-template-rows: 26rem minmax(7.5rem,1fr) 6.8rem;
+           grid-template-rows: 21rem minmax(12rem,auto) 6.8rem;
            grid-template-columns: 1fr;
        }
    }
